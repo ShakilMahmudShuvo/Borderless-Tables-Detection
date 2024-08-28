@@ -60,6 +60,10 @@ For quickly view and run the notebook from Kaggle: [Link to my Kaggle Notebook](
    ![identify_borderless](https://github.com/user-attachments/assets/9ab4899d-6425-4685-841d-de39ce277b60)
 
 
+## Thoughts and Conclusion
+
+I chose this approach using Hugging Face's Table Transformer models because of their state-of-the-art performance in detecting and recognizing complex table structures, even in cases where borders are absent. By leveraging pre-trained models, I could quickly implement a robust solution without the need for extensive custom training. However, a key limitation of this approach is its dependency on pre-trained models, which may not generalize perfectly to all table layouts or domains without fine-tuning. Additionally, the method can be resource-intensive, making it less ideal for large-scale deployment without sufficient computational resources.
+
   
 
   
